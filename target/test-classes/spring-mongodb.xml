@@ -38,4 +38,6 @@
             <constructor-arg name="mongo" ref="mongo"/>
             <constructor-arg name="databaseName" value="${mongo.dbname}"/>
         </bean>
+
+        <mongo:repositories base-package="org.springframework.mongodb.repository" query-lookup-strategy="create-if-not-found"/>
 </beans>
