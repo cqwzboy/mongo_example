@@ -1,4 +1,4 @@
 # mongo_example
-Spring整合Mongodb示例
+Spring整合Mongodb示
 
 test
